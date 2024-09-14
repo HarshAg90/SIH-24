@@ -1,0 +1,70 @@
+/* Custom styles for FileUpload component */
+
+/* You can add custom styles here if needed */
+
+.file-upload-container {
+    background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  }
+  
+  .file-upload-card {
+    max-width: 32rem; /* Adjust the width as needed */
+  }
+  
+  .file-upload-heading {
+    font-size: 1.875rem; /* 3xl */
+    font-weight: 600; /* semi-bold */
+    color: #1f2937; /* gray-800 */
+    margin-bottom: 1.5rem; /* mb-6 */
+    text-align: center;
+  }
+  
+  .file-upload-input {
+    border: 1px solid #d1d5db; /* gray-300 */
+    padding: 0.75rem; /* p-3 */
+    border-radius: 0.75rem; /* rounded-lg */
+    width: 100%;
+    color: #4b5563; /* gray-700 */
+  }
+  
+  .file-upload-input:focus {
+    outline: none;
+    ring: 2px solid #3b82f6; /* blue-500 */
+  }
+  
+  .file-upload-button {
+    width: 100%;
+    padding: 0.75rem 1rem; /* py-3 px-4 */
+    border-radius: 0.75rem; /* rounded-lg */
+    background-color: #2563eb; /* blue-600 */
+    color: #ffffff; /* white */
+    font-weight: 600; /* font-semibold */
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .file-upload-button:hover {
+    background-color: #1d4ed8; /* blue-700 */
+  }
+  
+  .file-upload-button:focus {
+    outline: none;
+    ring: 2px solid #3b82f6; /* blue-500 */
+  }
+  
+  .file-upload-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .file-upload-message {
+    text-align: center;
+    margin-top: 1rem; /* mt-4 */
+  }
+  
+  .file-upload-message.error {
+    color: #dc2626; /* red-500 */
+  }
+  
+  .file-upload-message.success {
+    color: #16a34a; /* green-500 */
+  }
+  
